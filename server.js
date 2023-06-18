@@ -9,7 +9,7 @@ app.use(express.json());
 const authRoutes = require('./Routes/authRoutes');
 const orderRoutes = require('./Routes/orderRoutes');
 const productRoutes = require('./Routes/productRoutes');
-const userRoutes = require('./Routes/userRoutes');
+
 
 // Connect to the database
 connectDb();
@@ -18,7 +18,7 @@ connectDb();
 app.use('/api/auth', authRoutes);
 app.use('/api/order', orderRoutes);
 app.use('/api/product', productRoutes);
-app.use('/api/user', userRoutes);
+
 
 // Start the server
 const port = process.env.PORT ||5000;
