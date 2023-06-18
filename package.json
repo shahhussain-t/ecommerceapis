@@ -2,10 +2,11 @@
   "name": "ecommerce2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js"
     
   },
   "keywords": [],
